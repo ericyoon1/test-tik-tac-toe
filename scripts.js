@@ -2,6 +2,17 @@ var player = "x";
 
 var computer = "O";
 
+var changeRandom1 = "Random value";
+
+function randomFunction(){
+    changeRandom1 = "Another random value";
+    randomFunction2();
+}
+
+function randomFunction2(){
+    changeRandom1 = "Another different random value";
+    console.log(changeRandom1);
+}
 
 $(document).ready(function()
 {
